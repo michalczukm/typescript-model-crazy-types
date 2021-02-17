@@ -8,29 +8,15 @@ type Contact = {
   phoneNumber: string
 };
 
-
-
-
-
-
-
-
-
-
 type ClientRow = [{ id: string }, ClientRevenue, Contact];
 
+declare const row: ClientRow;
 
-
-
-
-
-
-
-const row = [] as unknown as ClientRow;
+row[0].id;
+row[1].clientId;
 row[2].country;
 
-// fill live
-
+// row[0].clientId; <-- won't compile
 
 // fake module
 export {};

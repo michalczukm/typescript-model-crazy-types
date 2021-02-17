@@ -10,7 +10,7 @@ type Phone = {
 
 
 
-const phone = {} as Phone;
+declare const phone: Phone;
 phone.promotedFeature = 'cpu';
 
 

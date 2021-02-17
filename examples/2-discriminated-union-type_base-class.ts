@@ -1,22 +1,22 @@
-type __BaseProduct = {
+type BaseProduct = {
   id: string,
   price: number
 };
 
-type MarketingProduct = __BaseProduct & {
+type MarketingProduct = BaseProduct & {
   type: 'marketing',
   description: string,
   marketingName: string,
 };
 
-type StockProduct = __BaseProduct & {
+type StockProduct = BaseProduct & {
   type: 'stock',
   amountInStock: number
 };
 
 type Product = MarketingProduct | StockProduct;
 
-const product = {} as Product;
+declare const product: Product;
 
 product.price; // always available
 

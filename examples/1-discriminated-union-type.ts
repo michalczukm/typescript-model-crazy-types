@@ -16,7 +16,7 @@ type StockProduct = {
 type Product = MarketingProduct | StockProduct;
 
 
-const product = {} as Product;
+declare const product: Product;
 
 product.price; // always available
 

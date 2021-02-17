@@ -9,9 +9,12 @@ type Owner = 'ecosystem' | 'jira' | 'confluence';
 type Environment = 'cloud' | 'server';
 
 
-type Ari = `ari:${Resource}:${Owner}::${Resource}/${string}`
+type Ari = `ari:${Environment}:${Owner}::${Resource}/${string}`
 
-const myAppAri: Ari = 'ari:site:ecosystem::site/406d303d-0393-4ec4-ad7c-1435be94583a';
+const mySiteAri: Ari = 'ari:cloud:ecosystem::site/406d303d-0393-4ec4-ad7c-1435be94583a';
 
+function handleAri(ari: string) {
+    // do the job
+}
 // fake module
 export {};
