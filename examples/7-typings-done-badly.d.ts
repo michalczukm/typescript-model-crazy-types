@@ -1,3 +1,16 @@
+// =====
+
+export type ClientType = {
+    name: string
+}
+
+// =====
+
+export interface ClientInterface {
+    name: string;
+}
+
+
 // --- won't work
 // class ClientClass {
 //     id: string;
@@ -26,19 +39,6 @@ declare function handle(input: string): void;
 
 // ☣️☢️☣️☢️ Warning!!
 declare const PolandISOCode = 'PL';
-
-
-// =====
-
-export type ClientType = {
-    name: string
-}
-
-// =====
-
-export interface ClientInterface {
-    name: string;
-}
 
 // =====
 
