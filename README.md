@@ -15,6 +15,6 @@ All files with code samples can be found in [./examples](./examples)
 * [Version 2021 [PL]](https://www.youtube.com/watch?t=2326&v=1hqY1Fyl6-M&feature=youtu.be)
 
 
-## Code live
+## Presentation
 
-[Show on StackBlitz ⚡️](https://stackblitz.com/edit/typescript-model-crazy-types)
+[Embedded on the page - click](http://bit.ly/ts-model)
