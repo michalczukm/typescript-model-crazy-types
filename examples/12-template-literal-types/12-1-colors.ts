@@ -9,5 +9,4 @@ type TailwindColor = `${BaseColor}-${Variant}`;
 
 const color: TailwindColor = 'red-300';
 
-// fake module
 export {};

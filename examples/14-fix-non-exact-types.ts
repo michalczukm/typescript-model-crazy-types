@@ -37,3 +37,5 @@ function transformProduct(productApi: ProductApi): Product {
 
   return assertStructure(product);
 }
+
+export {};

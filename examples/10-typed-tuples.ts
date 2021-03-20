@@ -1,11 +1,11 @@
 type ClientRevenue = {
-  clientId: string,
-  revenue: number
+  clientId: string;
+  revenue: number;
 };
 
 type Contact = {
-  country: string,
-  phoneNumber: string
+  country: string;
+  phoneNumber: string;
 };
 
 type ClientRow = [{ id: string }, ClientRevenue, Contact];
@@ -18,5 +18,4 @@ row[2].country;
 
 // row[0].clientId; <-- won't compile
 
-// fake module
 export {};

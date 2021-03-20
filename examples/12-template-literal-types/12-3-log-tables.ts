@@ -20,14 +20,12 @@ type ChangeLog<T> = {
 // PS we can also do it in `FieldLog`
 // [K in keyof Omit<T, 'id'> as `${string & K}_${'old' | 'new'}`]?: string;
 
-
 const patientLog: ChangeLog<PatientEntity> = {
   id: 'foo',
   entityId: 'bar',
   createdDateUtc: new Date(),
-  // name_old: false, <-- won't compile 
-  birthDateUtc_old: new Date()
+  // name_old: false, <-- won't compile
+  birthDateUtc_old: new Date(),
 };
 
-// fake module
 export {};

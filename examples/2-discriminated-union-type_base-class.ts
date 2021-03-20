@@ -43,5 +43,4 @@ if (isMarketingProduct(product)) {
   // product.marketingName; // --> won't compile!
 }
 
-// fake module
 export {};
