@@ -33,4 +33,18 @@ const lazyFeaturesValues: LazyFeaturesValues = {
   screen: () => 100,
 };
 
+// to be honest, while creating mapped types we only need string literal
+// like in this example
+type ProductType = 'sale' | 'premiere' | 'standard';
+
+type ProductTypeMatrix = {
+  [Key in ProductType]: boolean;
+};
+
+const productTypeMatrix: ProductTypeMatrix = {
+  premiere: true,
+  sale: true,
+  standard: false,
+};
+
 export {};
