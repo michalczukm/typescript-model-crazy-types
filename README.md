@@ -1,8 +1,7 @@
 # typescript-model-crazy-types
 
-👋 This is code "How to model your crazy data in TypeScript"
+👋 This is code for "How to model your crazy data in TypeScript" presentation
 
-You can find this presentation [here](https://slides.com/michalczukm/how-to-model-your-crazy-data-with-typescript)
 All files with code samples can be found in [./examples](./examples)
 
 ## Description
@@ -11,10 +10,13 @@ All files with code samples can be found in [./examples](./examples)
 
 ## Videos
 
-* [Version 2019 [EN]](https://www.youtube.com/watch?v=HQ-7ldlWXmY&feature=youtu.be)
-* [Version 2021 [PL]](https://www.youtube.com/watch?t=2326&v=1hqY1Fyl6-M&feature=youtu.be)
-
+- [Version 2019 [EN]](https://www.youtube.com/watch?v=HQ-7ldlWXmY&feature=youtu.be)
+- [Version 2021 [PL]](https://www.youtube.com/watch?t=2326&v=1hqY1Fyl6-M&feature=youtu.be)
 
 ## Presentation
 
 [Embedded on the page - click](http://bit.ly/ts-model)
+
+## About me
+
+[michalczukm.xyz](https://michalczukm.xyz)
