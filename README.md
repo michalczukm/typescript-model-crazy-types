@@ -2,7 +2,7 @@
 
 👋 This is code for "How to model your crazy data in TypeScript" presentation
 
-All files with code samples can be found in [./examples](./examples)
+All files with code samples can be found in [./src](./src)
 
 ## Description
 
